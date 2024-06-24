@@ -1,0 +1,22 @@
+.body-regi {
+    background-color: #a8d5a2;
+    font-family: 'Arial', sans-serif;
+}
+.input-field {
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+.register-button {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}

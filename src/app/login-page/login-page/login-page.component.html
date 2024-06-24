@@ -1,0 +1,37 @@
+<div class="container-web">
+    <div class="container">
+        <div class="title-container">
+            <img alt="Municipalidad Distrital de Pachacutec logo" class="image hidden sm:block" height="100"
+            src="../../../assets/imgs/pacha.png"    
+            width="100" />
+            <div class="title">
+                SISTEMA DE GESTIÓN Y SEGUIMIENTO DE DOCUMENTOS MDP
+            </div>
+            <img alt="Stack of documents and a laptop" class="image hidden sm:block" height="100"
+            src="../../../assets/imgs/pacha2.jpg"    
+                width="100" />
+        </div>
+        <div class="subtitle">
+            USUARIO
+        </div>
+        <input class="input-box" placeholder="Ingrese su usuario" type="text" />
+        <div class="subtitle">
+            CONTRASEÑA
+        </div>
+        <input class="input-box" placeholder="Ingrese su contraseña" type="password" />
+        <div class="flex justify-between mt-4">
+            <button (click)="goToRegisterPage()" class="link">
+                <a routerLink="/register-page">
+                    ¿Deseas Registrarte?
+                </a>
+            </button>
+
+            <button (click)="goToNewPwd()" class="link">
+                <a>¿Has olvidado tu contraseña?</a>
+            </button>
+        </div>
+        <button (click)="login()" class="login-button">
+            INICIAR SESIÓN
+        </button>
+    </div>
+</div>
