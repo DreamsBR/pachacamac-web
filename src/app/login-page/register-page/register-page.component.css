@@ -1,22 +1,46 @@
 .body-regi {
-    background-color: #a8d5a2;
+    background-image: url('../../../assets/bg/img-login.png');
+    background-size: cover;
     font-family: 'Arial', sans-serif;
+    height: 100vh;
+}
+.image2{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -12%;
+}
+.container-registro{
+    margin: 2%;
+    width: 50%;
+    background-color: #0c3c2784;
 }
 .input-field {
-    background-color: #333;
-    color: white;
+    background-color: #000000;
+    color: #eff32ddb;
     border-radius: 20px;
     padding: 10px;
-    margin: 10px 0;
+    margin: 8px 0;
     width: 100%;
     text-align: center;
+    border: 2px solid white;
+    font-size: 16px;
 }
 .register-button {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.803);
     color: #333;
     border-radius: 20px;
-    padding: 10px 20px;
-    margin-top: 20px;
+    padding: 1% 2%;
+    margin-top: 1%;
     text-align: center;
     cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    font-size:  20px;
+    border: 5px solid rgb(8, 96, 32);
+}
+
+.register-button:hover {
+    background-color: #c3c530;
+    border: 5px solid white;
+    color: white;
 }

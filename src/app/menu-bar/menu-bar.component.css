@@ -1,17 +1,42 @@
 
 .sidebar {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 95%;
+    background-color: rgba(8, 32, 23, 0.908);
+    width: 85%;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
+
+.cerrar section{
+    background-color: brown;
+}
+
 .sidebar button {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #a4bb9ec5;
+    border: 5px solid rgb(250, 250, 250);
+    border-radius: 40px;
     font-weight: bold;
     margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
     width: 100%;
     text-align: left;
+    padding: 15px 15px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, serif;
 }
+
+.sidebar button:hover {
+    background-color: #bbc622fe; /* Color de fondo al pasar el cursor */
+    transform: scale(1); /* Escala el botón a 1.5 veces su tamaño original */
+    color: #070707;
+}
+
+.estiloLetra {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+}
+

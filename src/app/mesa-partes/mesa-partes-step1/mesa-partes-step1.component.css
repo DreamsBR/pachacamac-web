@@ -1,13 +1,24 @@
 .back {
-    background-image: url('../../../assets/bg/back-green.png');
+    background-image: url('../../../assets/bg/plazaPacha.jpg');
     background-size: cover;
     font-family: 'Arial', sans-serif;
-    height: 100vh;
+    height: 131vh;
+}
+.contenedor {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el título verticalmente en el centro */
+    justify-content: flex-start; /* Alinea los elementos al principio de la fila */
+}
+
+.imagen {
+    margin-right: 200px; /* Espacio entre la imagen y el título */
 }
 .sidebar {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
+    width: 85%;
+    
 }
 .sidebar button {
     background-color: #ffffff;
@@ -19,6 +30,8 @@
     width: 100%;
     text-align: left;
 }
+
+
 .sidebar button i {
     margin-right: 10px;
 }
@@ -76,7 +89,7 @@
 .save-button button {
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #000000;
+    background-color: #094a2b;
     color: #ffffff;
     border: none;
 }

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-register-page',
@@ -11,4 +11,10 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 })
 export class RegisterPageComponent {
 
+  constructor(private _router: Router) {}
+
+  goToLogin(){
+    this._router.navigate(['/login']);
+    console.log('goLoginPage');
+  }
 }

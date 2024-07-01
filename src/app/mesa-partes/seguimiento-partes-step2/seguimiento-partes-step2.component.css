@@ -1,7 +1,100 @@
+.back {
+    background-image: url('../../../assets/bg/plazaPacha.jpg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    height: 130vh;
+}
+.sidebar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.contenedor {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el título verticalmente en el centro */
+    justify-content: flex-start; /* Alinea los elementos al principio de la fila */
+}
+.imagen {
+    margin-right: 150px; /* Espacio entre la imagen y el título */
+}
+.form-container {
+    width: 696.55px;
+    height: 650px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
 
-    .back {
-        background-image: url('../../../assets/bg/back-green.png');
-        background-size: cover;
-        font-family: 'Arial', sans-serif;
-        height: 100vh;
-    }
+.sidebar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.sidebar button i {
+    margin-right: 10px;
+}
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+.content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.section-header {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.section-header i {
+    margin-right: 10px;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.input-group label {
+    flex: 1;
+    margin-right: 10px;
+}
+.input-group input, .input-group select {
+    flex: 2;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.input-group button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: none;
+}
+.save-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.save-button button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}

@@ -1,0 +1,57 @@
+.back {
+    background-image: url('../../../assets/bg/plazaPacha.jpg');
+
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+.titulo{
+    color: white;
+    font-size: 50px;
+    margin-left: 200px;
+}
+.cuadroreclamo{
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.668);
+    border-radius: 50px;
+    height: 70%;
+}
+.subtitulo{
+    margin-left: 10%;
+    font-size: 20px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h2{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: 35px;
+}
+input{
+    margin-left: 17.5%;
+    margin-top: -2.5%;
+    display: flex;
+}   
+
+textarea{
+    margin-left: 27.5%;
+    margin-top: -2.5%;
+    display: flex;
+}  
+.table{
+    width: 60%;
+    margin-left: 20%;
+    background-color: white;
+}
+.btnguardar{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 1%;
+    margin-top: 2%;
+    width: 15%;
+    margin-left: 42.5%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}

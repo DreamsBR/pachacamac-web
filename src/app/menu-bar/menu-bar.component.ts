@@ -16,9 +16,17 @@ export class MenuBarComponent implements OnInit{
 
   ngOnInit(): void {
   }
+  goRegistroMDP(){
+    this.router.navigate(['mesa-partes-step1']);
+
+  }
 
   goTomesa(){
     this.router.navigate(['mesa-partes-step2']);
+
+  }
+  goToreclamo(){
+    this.router.navigate(['resgistro-de-reclamos']);
 
   }
   goToback(){
